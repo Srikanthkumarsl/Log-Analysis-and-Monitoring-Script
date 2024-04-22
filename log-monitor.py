@@ -46,7 +46,7 @@ def monitor_log_file(log_file, patterns, report_interval=10):
 
 
 if __name__ == "__main__":
-    log_file = r"add\path\of\your\logfile"  # Update with the actual path of your log file
+    log_file = r"add/path/of/your/logfile"  # Update with the actual path of your log file
     # Specify patterns to count occurrences
     patterns = ['error', 'warning']  # Example: Count occurrences of 'error' and 'warning'
     monitor_log_file(log_file, patterns)
